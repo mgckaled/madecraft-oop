@@ -2,9 +2,9 @@ package exercises;
 
 public class Smurf {
 
-	private String name;
+	private final String name;
 
-	public static Smurf createSmurf(String name) {
+	public Smurf createSmurf(String name) {
 		System.out.println("Creating " + name + " Smurf");
 		return new Smurf(name);
 	}

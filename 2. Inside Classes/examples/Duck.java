@@ -7,8 +7,10 @@ import javax.sound.sampled.Clip;
 
 public class Duck {
 
-	/* Member Variables: data (encapsulated / private) */
-	
+	/*** Member Variables: data (encapsulated / private).
+	* Insert accessor 'private' -> that means these attributes won't be accessible
+	* to the outside world.
+	 **/
 	private String name;
 	private int lifeExpectancy;
 	private String favoriteFood;
@@ -25,7 +27,7 @@ public class Duck {
 	/* Methods: functionality */
 	
 	void waddle() {
-		lifeExpectancy++;
+		lifeExpectancy++; // Increment by 1, Int variable
 		System.out.println(this.name + " is waddling");
 	}
 

@@ -16,7 +16,7 @@ public class Athlete {
 	}
 
 	public void setMarathonLocation(String marathonLocation) {
-		this.marathonLocation = marathonLocation;
+		Athlete.marathonLocation = marathonLocation;
 	}
 
 	@Override

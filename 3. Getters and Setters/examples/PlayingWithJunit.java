@@ -1,3 +1,4 @@
+/*
 package examples;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -9,4 +10,5 @@ public class PlayingWithJunit {
 	void testName() throws Exception {
 		assertEquals(4, Calculator.add(2,2));
 	}
-}
+*/
+
